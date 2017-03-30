@@ -1,0 +1,13 @@
+Recycling Bin by Imaginix Games
+==================================
+
+
+Discription:
+
+Simply upright recycling bin with dirt. 
+Included are the PNG files and the
+master PSD file. Comes with a simple diffuse
+texture. Download and import, add to your 
+assets folder and you should see the folder
+recycling bin. Simply drag the FBX or OBJ
+and that's it!

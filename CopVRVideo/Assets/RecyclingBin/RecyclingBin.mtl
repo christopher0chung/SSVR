@@ -1,0 +1,18 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 07.07.2012 12:54:18
+
+newmtl Material__0
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1882 0.4824 0.0275
+	Kd 0.1882 0.4824 0.0275
+	Ks 0.1080 0.1080 0.1080
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\anthony\Desktop\DesktopFolders\Unity3DAssets\001 FunPack\003 Prototyping\RecyclingBin\Materials\Textures\RecyclingBin\Textures\RecyclingBinDIF.png
+	map_Kd C:\Users\anthony\Desktop\DesktopFolders\Unity3DAssets\001 FunPack\003 Prototyping\RecyclingBin\Materials\Textures\RecyclingBin\Textures\RecyclingBinDIF.png
+	map_Ks C:\Users\anthony\Desktop\DesktopFolders\Unity3DAssets\001 FunPack\003 Prototyping\RecyclingBin\Materials\Textures\RecyclingBin\Textures\RecyclingBinSPEC.png
+	map_bump -bm 0.3000 Map__18_Normal_Bump.tga
