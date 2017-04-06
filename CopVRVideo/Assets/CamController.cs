@@ -15,6 +15,8 @@ public class CamController : MonoBehaviour {
     private Vector3 startRot;
     private bool resetPos;
 
+    public bool autoPilotOff;
+
 	// Use this for initialization
 	void Start () {
         startPos = transform.position;
@@ -23,18 +25,19 @@ public class CamController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (autoPilotOff)
+        {
+            ToggleReset();
 
-        ToggleReset();
+            //Look();
+            if (resetPos)
+                ResetPos();
+            else 
+                Move();
 
-        //Look();
-        if (resetPos)
-            ResetPos();
-        else 
-            Move();
-
-        if (Vector3.Distance(transform.position, startPos) <= .01f && resetPos)
-            resetPos = false;
-
+            if (Vector3.Distance(transform.position, startPos) <= .01f && resetPos)
+                resetPos = false;
+        }
     }
 
     //void Look ()
